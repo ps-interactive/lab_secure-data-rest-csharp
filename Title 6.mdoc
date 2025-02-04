@@ -1,0 +1,20 @@
+Examine each of the options below and select the correct answer. 
+
+
+{% choice %}
+{% question %}
+How to compare two hashes of the same word in C#?
+{% /question %}
+{% option %}
+Using the = operator between the two hash computation commands.
+{% /option %}
+{% option %}
+Save both hashes of the same word to a variable and compare them.
+{% /option %}
+{% option answer=true %}
+Using the command BCrypt.Net.BCrypt.EnhancedVerify();
+{% /option %}
+{% option %}
+You can't compare two hashes that are using salts, they will never be the same.
+{% /option %}
+{% /choice %}

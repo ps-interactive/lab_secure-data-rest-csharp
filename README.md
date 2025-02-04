@@ -1,1 +1,1 @@
-# lab_secure-data-rest-c-
+# lab_password-protection-for-csharp
